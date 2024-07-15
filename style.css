@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: slategrey;
+}
+
+div {
+    /* border: 3px solid black; */
+    height: 280px;
+    width: 100%;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+.container > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-position: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+.container>div:hover {
+    opacity: 0.7;
+    transform: scale(0.98);
+}
+
+/* .container > div:nth-of-type(1){
+    grid-column:1/3;
+} */
+.bg1 {
+    background: url(bg1.jpg);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.bg1:hover {
+    color: aqua;
+}
+
+.bg2 {
+    background: url(bg2.jpg);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.bg2:hover {
+    color: springgreen;
+}
+
+.bg3 {
+    background: url(bg3.jpg);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.bg3:hover {
+    color: brown;
+}
+
+.bg4 {
+    background: url(bg4.jpg);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.bg4:hover {
+    color: tomato;
+}
+
+.bg5 {
+    background: url(bg5.jpg);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.bg5:hover {
+    color: aquamarine;
+}
+
+.bg6 {
+    background: url(bg6.jpg);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.bg6:hover {
+    color: royalblue;
+}
+
+.bg7 {
+    background: url(bg7.jpg);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.bg7:hover {
+    color: yellowgreen;
+}
+
+.bg8 {
+    background: url(bg8.jpg);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.bg8:hover {
+    color: yellow;
+}
+
+.bg9 {
+    background: url(bg9.jpg);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.bg9:hover {
+    color: black;
+}
+
+.bg10 {
+    background: url(bg10.jpg);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.bg10:hover {
+    color: sandybrown;
+}
+
+.bg11 {
+    background: url(bg11.jpg);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.bg11:hover {
+    color: red;
+}
+
+.bg12 {
+    background: url(bg12.jpg);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.bg12:hover {
+    color: chartreuse;
+}
